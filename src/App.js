@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { NavBar } from './components/Navbar/NavBar';
 import { Cover } from './components/cover/Cover';
 import { About } from './components/about/About';
+import { Slider } from './components/slider/Slider';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Cover />
       <NavBar isScrolling={scrollHight} />
       <About/>
+      <Slider/>
     </div>
   );
 }
