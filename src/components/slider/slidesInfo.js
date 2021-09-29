@@ -1,39 +1,40 @@
-import s1 from "../../media/1.jpg"
-import s2 from "../../media/2.jpg"
-import s3 from "../../media/3.jpg"
-import s4 from "../../media/4.jpg"
-import s5 from "../../media/5.jpg"
-import s6 from "../../media/s1.svg"
+
+import s1 from "./s1.svg"
+import s2 from "./s2.svg"
+import s3 from "./s3.svg"
+import s4 from "./s4.svg"
+import s5 from "./s5.svg"
+import s6 from "./s6.svg"
 
 
 const slidesInfo = [
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
+        src: s1,
         alt: "react",
         desc: "react",
     },
     {
-        src: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+        src: s2,
         alt: "redux",
         desc: "redux",
     },
     {
-        src: "",
+        src: s3,
         alt: "css",
         desc: "css",
     },
     {
-        src: "https://avatars.githubusercontent.com/u/18133?s=200&v=4",
+        src: s4,
         alt: "html",
         desc: "html",
     },
     {
-        src: "https://avatars.githubusercontent.com/u/18133?s=200&v=4",
+        src: s5,
         alt: "npm",
         desc: "npm",
     },
     {
-        src: "https://avatars.githubusercontent.com/u/18133?s=200&v=4",
+        src: s6,
         alt: "git",
         desc: "git",
     }
@@ -41,9 +42,9 @@ const slidesInfo = [
 
 
 export const Slides = slidesInfo.map((slide) => (
-    <div>
-        <img src={slide.src} />
-        <div>
+    <div className="slide-container">
+        <img src={slide.src} alt={slide.alt} />
+        <div className="slide-desc">
             <span>{slide.desc}</span>
         </div>
     </div>
