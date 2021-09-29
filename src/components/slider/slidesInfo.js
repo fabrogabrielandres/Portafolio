@@ -5,6 +5,8 @@ import s3 from "./s3.svg"
 import s4 from "./s4.svg"
 import s5 from "./s5.svg"
 import s6 from "./s6.svg"
+import s7 from "./s7.svg"
+
 
 
 const slidesInfo = [
@@ -37,6 +39,11 @@ const slidesInfo = [
         src: s6,
         alt: "git",
         desc: "git",
+    },
+    {
+        src: s7,
+        alt: "js",
+        desc: "js",
     }
 ]
 
