@@ -11,13 +11,13 @@ export const Slider = () => {
             </div>
             <Carousel
                 plugins={['arrows',
-                    "infinite",
-                    "centered",
+                "centered",
+                "infinite",
                 ]}
-                slidesPerPage={3}
-                animationSpeed={200}
-                offset={50}
-                itemWidth={400}
+                slidesPerPage={7}
+                animationSpeed={1000}
+                offset={3}
+                itemWidth={600}
                 slides={Slides}
             />
 

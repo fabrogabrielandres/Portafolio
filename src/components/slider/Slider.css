@@ -9,7 +9,6 @@
 .carousel-title {
   color: white;
   width: 20%;
-  /* text-align: center; */
   font-size: 1rem;
   padding: 0 1rem 0 1rem;
 }
@@ -21,8 +20,8 @@
 
 /* background-color: crimson; */
 .slide-container img {
-  width: 7rem;
-  height: 7rem;
+  width: 4rem;
+  height: 4rem;
   cursor: pointer;
   transition: all 0.5s ease;
 }
@@ -40,6 +39,7 @@
 }
 
 .slide-desc span {
+  margin-left: 1rem;
   color: rgb(255, 255, 255);
 }
 
@@ -59,12 +59,14 @@
   border-color: black !important;
 }
 
+
 @media screen and (max-width: 700px) {
   .carousel-container {
-    background-color: yellow;
     flex-direction: column;
+    height: 10rem;
   }
-  .carousel-title {
-    margin-bottom: 2rem;
+  .slide-container img {
+    height: 3rem;
   }
+ 
 }

@@ -1,9 +1,9 @@
 .about-container {
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(206, 187, 187);
   color: black;
   height: 70vh;
-  padding: 3rem 0 4rem 0;
+  padding: 10px 0 10px 0;
 }
 
 .about-desc {
@@ -11,12 +11,12 @@
   flex-direction: column;
   justify-content: center;
   width: 55%;
-  padding: 0 8rem 0 8rem;
+  padding: 0 100px 0 100px;
 }
 
 .about-desc > h3 {
-  margin-bottom: 3rem;
-  font-size: 2rem;
+  margin-bottom: 30px;
+  font-size: 28px;
 }
 
 .about-desc > p {
@@ -28,4 +28,16 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .about-container{
+    flex-direction: column;
+  }
+  .about-img {
+    width: 100%;
+  }
+  .about-desc {
+    width: 100%;
+  }
 }
