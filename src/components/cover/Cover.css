@@ -22,13 +22,13 @@
 
 .cover-container h1{
     color: white;
-    font-size: 100px;
+    font-size: 7rem;
 }
 
 .cover-container p{
-    margin-top: 8px;
+    margin-top: 3rem;
     color: white;
-    font-size: 32px;
+    font-size: 3rem;
 }
 
 
