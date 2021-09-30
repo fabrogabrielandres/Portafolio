@@ -1,5 +1,5 @@
 import React from 'react'
-import imagen from "../../media/8.jpg"
+import imagen from "./8.jpg"
 import "./About.css"
 
 export const About = () => {
