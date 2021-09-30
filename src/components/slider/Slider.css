@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(206, 187, 187);
+  background-color: rgb(32, 32, 32);
   padding: 2rem 0rem 2rem 0rem;
 }
 
@@ -59,7 +59,6 @@
   border-color: black !important;
 }
 
-
 @media screen and (max-width: 700px) {
   .carousel-container {
     flex-direction: column;
@@ -68,5 +67,4 @@
   .slide-container img {
     height: 3rem;
   }
- 
 }

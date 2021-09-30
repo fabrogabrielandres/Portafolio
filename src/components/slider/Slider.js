@@ -7,12 +7,12 @@ export const Slider = () => {
     return (
         <div className="carousel-container">
             <div className="carousel-title">
-                <h2>Tecnologias</h2>
+                <h2>My technologies</h2>
             </div>
             <Carousel
                 plugins={['arrows',
-                "centered",
-                "infinite",
+                    "centered",
+                    "infinite",
                 ]}
                 slidesPerPage={1}
                 animationSpeed={1000}

@@ -1,7 +1,7 @@
 .about-container {
   display: flex;
-  background-color: rgb(206, 187, 187);
-  color: black;
+  background-color: rgb(32, 32, 32);
+  color: white;
   height: 70vh;
   padding: 10px 0 10px 0;
 }
