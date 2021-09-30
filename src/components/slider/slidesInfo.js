@@ -6,6 +6,7 @@ import s4 from "./s4.svg"
 import s5 from "./s5.svg"
 import s6 from "./s6.svg"
 import s7 from "./s7.svg"
+import s8 from "./s8.svg"
 
 
 
@@ -44,6 +45,10 @@ const slidesInfo = [
         src: s7,
         alt: "js",
         desc: "js",
+    },  {
+        src: s8,
+        alt: "node",
+        desc: "node",
     }
 ]
 

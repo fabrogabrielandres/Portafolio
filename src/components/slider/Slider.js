@@ -14,9 +14,9 @@ export const Slider = () => {
                 "centered",
                 "infinite",
                 ]}
-                slidesPerPage={7}
+                slidesPerPage={1}
                 animationSpeed={1000}
-                offset={3}
+                offset={8}
                 itemWidth={600}
                 slides={Slides}
             />
