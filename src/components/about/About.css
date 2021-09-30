@@ -28,10 +28,14 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  margin-top: 2rem;
+}
+.about-img img {
+  border-radius: 10%;
 }
 
 @media screen and (max-width: 700px) {
-  .about-container{
+  .about-container {
     flex-direction: column;
   }
   .about-img {
