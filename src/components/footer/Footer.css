@@ -47,11 +47,22 @@
   font-size: 2rem;
   border-bottom: 4px solid transparent;
   padding-bottom: 5px;
-
 }
 
-.linkedin:hover, .github:hover, .instagram:hover {
-    border-color: white;
-    
+.linkedin:hover,
+.github:hover,
+.instagram:hover {
+  border-color: white;
+}
 
-} 
+@media screen and (max-width: 700px) {
+  .footer-info > h1 {
+    font-size: 2.2rem;
+  }
+  .footer-info > p {
+    font-size: 1.5rem;
+  }
+  .footer-contact {
+    font-size: 1rem;
+  }
+}
