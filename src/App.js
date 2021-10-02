@@ -6,7 +6,7 @@ import { About } from './components/about/About';
 import { Slider } from './components/slider/Slider';
 import { Info } from './components/info/Info';
 import { Footer } from './components/footer/Footer';
-import { Projectos } from './components/projectos/Projectos';
+// import { Projectos } from './components/projectos/Projectos';
 
 function App() {
 
