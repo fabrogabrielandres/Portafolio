@@ -29,7 +29,7 @@ function App() {
       <NavBar isScrolling={scrollHight} />
       <About/>
       <Slider/>
-      <Projectos/>
+      {/* <Projectos/> */}
       <Info/>
       <Footer/>
     </div>

@@ -10,8 +10,8 @@ const proj = [
     },
     {
         img: im1,
-        url: "https://pelis-series.vercel.app/search",
-        nombre: "Peliculas App"
+        url: "https://weathermap-api.vercel.app/",
+        nombre: "Weather App"
     },
     {
         img: im1,
