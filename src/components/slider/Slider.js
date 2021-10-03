@@ -17,7 +17,7 @@ export const Slider = () => {
                 slidesPerPage={1}
                 animationSpeed={1000}
                 offset={8}
-                itemWidth={600}
+                // itemWidth={300}
                 slides={Slides}
             />
 
